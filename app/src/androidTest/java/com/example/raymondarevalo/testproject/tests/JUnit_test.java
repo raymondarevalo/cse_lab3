@@ -19,6 +19,6 @@ public class JUnit_test extends ActivityInstrumentationTestCase2<MyActivity>{
         myActivity = getActivity();
         TextView blah = (TextView) myActivity.findViewById(R.id.tv1);
         String tester = blah.getText().toString();
-        assertEquals("Hello World!", tester);
+        assertEquals("Hello World", tester);
     }
 }
